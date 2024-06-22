@@ -1,0 +1,65 @@
+html{font-size: 16px;}
+body{background-color: azure;}
+h2{
+    color: #283629;
+    font-size: 35px;
+}
+label{
+    color: #283629;
+    font-size: 15px;
+    font-weight:600;
+    margin-bottom: 15px;
+}
+input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    color: #283629;
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color: #b5cab6;
+}
+form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+h1{color:blue;font-size:30px;}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a:link{
+    background-color: #2525a4;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #f2f2f2;
+    color: #2525a4
+}
+a:active{
+    background-color: yellow;
+    color: #000
+}
+a:visited{
+    background-color: orange;
+    color: pink;
+}
+#titulo{color:black;font-size: 40px;}
+#subtitulo{color:gray;font-size:30px}
+#ventastotales{color:white;}
+ul {list-style: none;}
+h2{font-family:Verdana, Geneva, Tahoma, sans-serif; font: size 20px; font-weight:bold; font-style: italic; text-align:center; text-decoration:normal;}
+h1 {font-family:Verdana, Geneva, Tahoma, sans-serif; font: size 50px; font-weight:bold; font-style: italic; text-align:center; text-decoration:normal;}
+p{ color: gray;}

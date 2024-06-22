@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Commerce-Products</title>
+    <link rel="shortcut icon" href="../assets/images/apple.jpg" type="image/x-icon">
+</head>
+<body>
+  <div class="grid-4">
+    <div class="box header">
+        <header>
+            <section class="menu">
+              <a href="../index.html">Dashboard</a>
+              <a href="productos.html" target="_blank"> Productos</a>
+              <a href="galeria.html">Galeria</a>
+              <a href="contacto.html">Contacto</a>
+              <a href="https://github.com/juanzkr">Mi GitHub</a>
+              <a href="configuracion.html">Configuracion</a>
+            </section>
+        </header>
+    </div>
+  <div class="box principal">
+      <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Buscar producto">
+        <button id="search-btn">Buscar</button>
+      </div>
+      
+      
+      <button id="add-product-btn">Añadir producto</button>
+      
+      <section class="section-5">
+      <table id="product-list">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>ID</th>
+            <th>Categoría</th>
+            <th>Estado</th>
+            <th>Precio</th>
+            <th>Día de la orden</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Airpods Pro</td>
+            <td>1</td>
+            <td>Electrónica</td>
+            <td>Disponible</td>
+            <td>$200.00</td>
+            <td>10/05/2024</td>
+            <td><div class="button"><button id="add-product-btn">Ver opciones del producto</button></div></td>
+          </tr>
+          <tr>
+            <td>Macbook Pro 13</td>
+            <td>2</td>
+            <td>Laptops</td>
+            <td>Disponible</td>
+            <td>$500.00</td>
+            <td>05/05/2024</td>
+            <td><div class="button"><button id="add-product-btn">Ver opciones del producto</button></div></td>
+          </tr>
+          <tr>
+            <td>Macbook Pro 15</td>
+            <td>3</td>
+            <td>Laptops</td>
+            <td>Agotado</td>
+            <td>$650.00</td>
+            <td>05/05/2024</td>
+            <td><button id="add-product-btn">Ver opciones del producto</button></td>
+          </tr>
+          <tr>
+            <td>Iphone 13</td>
+            <td>4</td>
+            <td>Telefonos</td>
+            <td>Disponible</td>
+            <td>$300.00</td>
+            <td>08/05/2024</td>
+            <td><div class="button"><button id="add-product-btn">Ver opciones del producto</button></div></td>
+          </tr>
+          <tr>
+            <td>Iphone 14</td>
+            <td>5</td>
+            <td>Telefonos</td>
+            <td>Disponible</td>
+            <td>$350.00</td>
+            <td>08/05/2024</td>
+            <td><div class="button"><button id="add-product-btn">Ver opciones del producto</button></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>  
+  </div>  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>

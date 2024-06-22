@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce-Contact</title>
+    <link rel="shortcut icon" href="../assets/images/apple.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <div class="grid-4">
+    <div class="box header">
+        <header>
+            <section class="menu">
+              <a href="../index.html">Dashboard</a>
+              <a href="productos.html" target="_blank"> Productos</a>
+              <a href="galeria.html">Galeria</a>
+              <a href="contacto.html">Contacto</a>
+              <a href="https://github.com/juanzkr">Mi GitHub</a>
+              <a href="configuracion.html">Configuracion</a>
+            </section>
+        </header>
+    </div>
+    <div class="box principal">
+  
+  <section class="section-1">
+  <table id="product-list">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Rol</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nombre de la persona</td>
+        <td>Apellido de la persona</td>
+        <td>Director ejecutivo</td>
+      </tr>
+      <tr>
+        <td>Nombre de la persona</td>
+        <td>Apellido de la persona</td>
+        <td>Presidente</td>
+        <td><button id="add-product-btn">Enviar Mensaje</button></td>
+      </tr>
+      <tr>
+        <td>Nombre de la persona</td>
+        <td>Apellido de la persona</td>
+        <td>Vicepresidente</td>
+        <td><button id="add-product-btn">Enviar Mensaje</button></td>
+      </tr>
+      <tr>
+        <td>Nombre de la persona</td>
+        <td>Apellido de la persona</td>
+        <td>Gerente</td>
+        <td><button id="add-product-btn">Enviar Mensaje</button></td>
+      </tr>
+      <tr>
+        <td>Nombre de la persona</td>
+        <td>Apellido de la persona</td>
+        <td>Gerente</td>
+        <td><button id="add-product-btn">Enviar Mensaje</button></td>
+      </tr>
+    </tbody>
+  </table>
+  </section>
+    <div class="box principal">  
+    <form action="https://formsubmit.co/juanmanuelschechtel647@gmail.com" method="POST">
+    <h2>Contacto</h2>
+
+    <div class="input-group">
+
+      <label for="name">Nombre</label>
+      <input type="text" name="name" id="name" placeholder="Nombre">
+
+      <label for="phone">Telefono</label>
+      <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Email">
+
+      <label for="message">Mensaje</label>
+      <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+      <div class="form-txt">
+        <a href="#">Politica de privacidad</a>
+        <a href="#">Terminos y condiciones</a>
+      </div>
+
+      <input  class="btn" type="submit" value="Enviar">
+
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+      <input type="hidden" name="_captcha" value="false">
+
+
+    </div>
+    </div>
+  </div>
+ 
+
+  </form>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>

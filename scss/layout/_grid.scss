@@ -1,0 +1,36 @@
+.grid-4{
+    border: 2px solid #FFD700;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "nav header header"
+    "nav principal aside"
+    "nav principal aside"
+    "footer footer footer";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 100px 1fr 1fr 100px;
+    text-align: center;
+}
+.header{grid-area: header;
+    background:  #f4ff80;
+}
+
+.nav{grid-area: nav;
+    background:  #f4ff80;
+}
+
+.principal{grid-area: principal;
+    background:  #f4ff80;
+}
+
+.aside{grid-area: aside;
+    background:  #f4ff80;
+}
+
+.footer{grid-area: footer;
+    background:  #f4ff80;
+}
+.grid-5 div{
+    width: 80px;
+    height: 100px;
+}

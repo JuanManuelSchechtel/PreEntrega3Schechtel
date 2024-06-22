@@ -1,0 +1,183 @@
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.form-txt a {
+    color: #76b28e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.bnt {
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #50e04b
+}
+.titulo{left: 200px; bottom: 400px;
+}
+.box {
+    background-color: #f4ff80;
+      border: 1px solid #000;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.airpods {
+    width: 900px;
+    height: 900px;
+    background-image: url(../assets/images/airpods.jpg)
+}
+.subconfig{
+    text-align: center;
+}
+.box-model{
+    width: 1000px;
+    height: 750px;
+    background-color:forestgreen;
+    overflow-x: 0;
+    margin: 20px 5px 10px 7px;
+    padding: 20px; 
+    border: 10px inset whitesmoke;
+    border-top: color whitesmoke;
+    padding-top: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: -auto;
+    bottom: -48;
+
+}
+
+.menu{
+    background-color: black;
+    border: solid 1px black;
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 90px;
+}
+
+.ventas-totales{
+    width: 400px;
+    height: 300px;
+    background-color:black;
+    overflow-x: scroll;
+    margin: 20px 5px 10px 7px;
+    padding: 20px; 
+    border: 10px inset black;
+    border-top: color black;
+    padding-top: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: -950px;
+    bottom: -400px;
+    text-align:center
+
+}
+
+.visitantes{
+    width: 400px;
+    height: 300px;
+    background-color:white;
+    overflow-x: scroll;
+    margin: 20px 5px 10px 7px;
+    padding: 20px; 
+    border: 10px inset black;
+    padding-top: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: -465px;
+    bottom: -80px;
+text-align: center;
+}
+
+.Reembolsos{
+    width: 400px;
+    height: 300px;
+    background-color:white;
+    overflow-x: scroll;
+    margin: 20px 5px 10px 7px;
+    padding: 20px; 
+    border: 10px inset black;
+    padding-top: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 20px;
+    bottom: 240px;
+text-align: center;
+}
+
+.top-categorias{
+    width: 150px;
+    height: 300px;
+    background-color:white;
+    overflow-x: scroll;
+    margin: 20px 5px 10px 7px;
+    padding: 20px; 
+    border: 10px inset black;
+    padding-top: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+text-align: center;
+}
+.section-1 table tbody tr:nth-child(1n){
+    color: green;
+    background-color: black;
+}
+.section-5 table tbody tr:nth-child(1n){
+    color: green;
+    background-color: black;
+}
+.section-5 table tbody tr:nth-child(3n){
+    color: red;
+    background-color: black;
+}
+.hijo{
+    justify-self: center;
+    align-self: end;
+}
+.cuadro{
+    border: 2px solid #000;
+    height: 5vh;
+    margin-bottom: 2vh;
+    width: 90%;
+}
+.container{
+  border: 2px solid green;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
